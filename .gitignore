@@ -1,7 +1,11 @@
+# Quartus folders
 .qsys_edit/*
 db/*
 incremental_db/*
 output_files/*
 simulation/*
+
+# Documentation
+docs/*
 
 *.qws
