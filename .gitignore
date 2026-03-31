@@ -6,7 +6,7 @@ src/output_files/*
 src/simulation/*
 
 src/*.qsf
-src/*.qpf
+# src/*.qpf
 
 # Documentation
 docs/*
