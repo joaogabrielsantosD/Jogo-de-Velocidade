@@ -1,0 +1,14 @@
+# Quartus folders
+src/.qsys_edit/*
+src/db/*
+src/incremental_db/*
+src/output_files/*
+src/simulation/*
+
+# Documentation
+docs/*
+!docs/Projeto 1 - Jogo da velocidade 2026.pdf
+
+src/*.qws
+
+src/cin-board.tcl
