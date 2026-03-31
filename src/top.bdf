@@ -124,9 +124,32 @@ on the Quartus Prime software download page.
 )
 (pin
 	(input)
+<<<<<<< HEAD
 	(rect 600 8 768 24)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "clock13" (rect 5 0 42 11)(font "DejaVu Sans Condensed" ))
+=======
+	(rect 560 -72 728 -56)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "rst_n12" (rect 5 0 42 11)(font "DejaVu Sans Condensed" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 648 -96 704 -80))
+)
+(pin
+	(input)
+	(rect 600 8 768 24)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "clock13" (rect 5 0 43 11)(font "DejaVu Sans Condensed" ))
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -138,6 +161,7 @@ on the Quartus Prime software download page.
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
 	(annotation_block (location)(rect 800 -128 856 -112))
+<<<<<<< HEAD
 )
 (pin
 	(input)
@@ -154,6 +178,8 @@ on the Quartus Prime software download page.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+=======
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 )
 (pin
 	(output)
@@ -279,6 +305,7 @@ on the Quartus Prime software download page.
 	(rect 1400 216 1580 232)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "dig[4]" (rect 143 0 174 11)(font "Arial" ))
+<<<<<<< HEAD
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -313,6 +340,8 @@ on the Quartus Prime software download page.
 	(rect 1200 24 1376 40)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "buzzer" (rect 90 0 126 11)(font "Arial" ))
+=======
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -324,6 +353,23 @@ on the Quartus Prime software download page.
 		(line (pt 78 12)(pt 82 8))
 	)
 	(annotation_block (location)(rect 1376 40 1440 56))
+)
+(pin
+	(output)
+	(rect 1368 400 1544 416)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "dig[3]" (rect 140 -2 169 11)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 1480 424 1544 440))
 )
 (symbol
 	(rect -88 152 48 352)
@@ -1050,6 +1096,7 @@ on the Quartus Prime software download page.
 	)
 )
 (symbol
+<<<<<<< HEAD
 	(rect 1088 -32 1184 96)
 	(text "FSM" (rect 5 0 29 13)(font "DejaVu Sans Condensed" (font_size 8)))
 	(text "inst12" (rect 8 113 38 124)(font "DejaVu Sans Condensed" ))
@@ -1121,6 +1168,8 @@ on the Quartus Prime software download page.
 	)
 )
 (symbol
+=======
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 	(rect 768 -32 976 96)
 	(text "contador_delay" (rect 5 0 95 13)(font "DejaVu Sans Condensed" (font_size 8)))
 	(text "inst11" (rect 8 113 38 124)(font "DejaVu Sans Condensed" ))
@@ -1155,8 +1204,13 @@ on the Quartus Prime software download page.
 	(port
 		(pt 208 32)
 		(output)
+<<<<<<< HEAD
 		(text "delay_done" (rect 0 0 67 13)(font "DejaVu Sans Condensed" (font_size 8)))
 		(text "delay_done" (rect 120 27 187 40)(font "DejaVu Sans Condensed" (font_size 8)))
+=======
+		(text "dalay_done" (rect 0 0 67 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "dalay_done" (rect 120 27 187 40)(font "DejaVu Sans Condensed" (font_size 8)))
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 		(line (pt 208 32)(pt 192 32))
 	)
 	(drawing
@@ -1516,6 +1570,13 @@ on the Quartus Prime software download page.
 	(pt 1344 408)
 )
 (connector
+<<<<<<< HEAD
+=======
+	(pt 640 216)
+	(pt 640 248)
+)
+(connector
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 	(text "s[6..0]" (rect 1346 296 1376 309)(font "Intel Clear" ))
 	(pt 1336 312)
 	(pt 1368 312)
@@ -1546,6 +1607,164 @@ on the Quartus Prime software download page.
 	(pt 272 -56)
 )
 (connector
+<<<<<<< HEAD
+=======
+	(pt 416 -40)
+	(pt 568 -40)
+	(bus)
+)
+(connector
+	(pt 568 -40)
+	(pt 568 48)
+	(bus)
+)
+(connector
+	(pt 416 -24)
+	(pt 584 -24)
+	(bus)
+)
+(connector
+	(pt 584 -24)
+	(pt 584 48)
+	(bus)
+)
+(connector
+	(text "/" (rect 424 -24 427 -13)(font "DejaVu Sans Condensed" ))
+	(pt 416 -8)
+	(pt 608 -8)
+	(bus)
+)
+(connector
+	(pt 608 -8)
+	(pt 608 48)
+	(bus)
+)
+(connector
+	(pt 416 8)
+	(pt 632 8)
+	(bus)
+)
+(connector
+	(pt 632 8)
+	(pt 632 48)
+	(bus)
+)
+(connector
+	(pt 416 24)
+	(pt 656 24)
+	(bus)
+)
+(connector
+	(pt 656 24)
+	(pt 656 48)
+	(bus)
+)
+(connector
+	(pt 416 40)
+	(pt 528 40)
+	(bus)
+)
+(connector
+	(pt 528 40)
+	(pt 528 72)
+	(bus)
+)
+(connector
+	(pt 528 72)
+	(pt 672 72)
+	(bus)
+)
+(connector
+	(pt 672 72)
+	(pt 672 48)
+	(bus)
+)
+(connector
+	(pt 416 56)
+	(pt 504 56)
+	(bus)
+)
+(connector
+	(pt 504 56)
+	(pt 504 88)
+	(bus)
+)
+(connector
+	(pt 504 88)
+	(pt 704 88)
+	(bus)
+)
+(connector
+	(pt 704 88)
+	(pt 704 48)
+	(bus)
+)
+(connector
+	(pt 416 72)
+	(pt 472 72)
+	(bus)
+)
+(connector
+	(pt 472 72)
+	(pt 472 104)
+	(bus)
+)
+(connector
+	(pt 472 104)
+	(pt 728 104)
+	(bus)
+)
+(connector
+	(pt 728 104)
+	(pt 728 48)
+	(bus)
+)
+(connector
+	(pt 568 48)
+	(pt 584 48)
+	(bus)
+)
+(connector
+	(pt 584 48)
+	(pt 608 48)
+	(bus)
+)
+(connector
+	(pt 608 48)
+	(pt 632 48)
+	(bus)
+)
+(connector
+	(pt 632 48)
+	(pt 656 48)
+	(bus)
+)
+(connector
+	(pt 656 48)
+	(pt 672 48)
+	(bus)
+)
+(connector
+	(pt 672 48)
+	(pt 704 48)
+	(bus)
+)
+(connector
+	(pt 704 48)
+	(pt 728 48)
+	(bus)
+)
+(connector
+	(pt 728 48)
+	(pt 768 48)
+	(bus)
+)
+(connector
+	(pt 728 -64)
+	(pt 760 -64)
+)
+(connector
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 	(pt 760 -64)
 	(pt 760 0)
 )
@@ -1553,6 +1772,7 @@ on the Quartus Prime software download page.
 	(pt 760 0)
 	(pt 768 0)
 )
+<<<<<<< HEAD
 (connector
 	(text "out[7..0]" (rect 491 32 532 43)(font "DejaVu Sans Condensed" ))
 	(pt 768 48)
@@ -1775,6 +1995,8 @@ on the Quartus Prime software download page.
 	(pt 752 32)
 	(pt 752 112)
 )
+=======
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 (junction (pt 128 224))
 (junction (pt 208 264))
 (junction (pt 768 304))
@@ -1794,6 +2016,7 @@ on the Quartus Prime software download page.
 (junction (pt 1384 312))
 (junction (pt 1376 312))
 (junction (pt 1368 312))
+<<<<<<< HEAD
 (junction (pt 464 48))
 (junction (pt 464 -24))
 (junction (pt 464 -8))
@@ -1801,3 +2024,12 @@ on the Quartus Prime software download page.
 (junction (pt 464 24))
 (junction (pt 464 40))
 (junction (pt 464 56))
+=======
+(junction (pt 584 48))
+(junction (pt 608 48))
+(junction (pt 632 48))
+(junction (pt 656 48))
+(junction (pt 672 48))
+(junction (pt 704 48))
+(junction (pt 728 48))
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6

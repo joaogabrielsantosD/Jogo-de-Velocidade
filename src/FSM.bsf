@@ -27,27 +27,43 @@ on the Quartus Prime software download page.
 	(port
 		(pt 0 32)
 		(input)
+<<<<<<< HEAD
 		(text "J1" (rect 0 0 11 13)(font "DejaVu Sans Condensed" (font_size 8)))
 		(text "J1" (rect 21 27 32 40)(font "DejaVu Sans Condensed" (font_size 8)))
+=======
+		(text "clock" (rect 0 0 30 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "clock" (rect 21 27 51 40)(font "DejaVu Sans Condensed" (font_size 8)))
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 0 48)
 		(input)
+<<<<<<< HEAD
 		(text "J2" (rect 0 0 11 13)(font "DejaVu Sans Condensed" (font_size 8)))
 		(text "J2" (rect 21 43 32 56)(font "DejaVu Sans Condensed" (font_size 8)))
+=======
+		(text "rst_n" (rect 0 0 29 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "rst_n" (rect 21 43 50 56)(font "DejaVu Sans Condensed" (font_size 8)))
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
 		(pt 0 64)
 		(input)
+<<<<<<< HEAD
 		(text "S_t" (rect 0 0 18 13)(font "DejaVu Sans Condensed" (font_size 8)))
 		(text "S_t" (rect 21 59 39 72)(font "DejaVu Sans Condensed" (font_size 8)))
+=======
+		(text "key[0]" (rect 0 0 37 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "key[0]" (rect 21 59 58 72)(font "DejaVu Sans Condensed" (font_size 8)))
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 		(line (pt 0 64)(pt 16 64))
 	)
 	(port
 		(pt 0 80)
 		(input)
+<<<<<<< HEAD
 		(text "F" (rect 0 0 7 13)(font "DejaVu Sans Condensed" (font_size 8)))
 		(text "F" (rect 21 75 28 88)(font "DejaVu Sans Condensed" (font_size 8)))
 		(line (pt 0 80)(pt 16 80))
@@ -86,6 +102,18 @@ on the Quartus Prime software download page.
 		(text "I2" (rect 0 0 11 13)(font "DejaVu Sans Condensed" (font_size 8)))
 		(text "I2" (rect 64 91 75 104)(font "DejaVu Sans Condensed" (font_size 8)))
 		(line (pt 96 96)(pt 80 96))
+=======
+		(text "key[1]" (rect 0 0 37 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "key[1]" (rect 21 75 58 88)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "key[2]" (rect 0 0 37 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "key[2]" (rect 21 91 58 104)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 	)
 	(drawing
 		(rectangle (rect 16 16 80 112))

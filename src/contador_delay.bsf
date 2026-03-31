@@ -55,8 +55,13 @@ on the Quartus Prime software download page.
 	(port
 		(pt 208 32)
 		(output)
+<<<<<<< HEAD
 		(text "delay_done" (rect 0 0 67 13)(font "DejaVu Sans Condensed" (font_size 8)))
 		(text "delay_done" (rect 120 27 187 40)(font "DejaVu Sans Condensed" (font_size 8)))
+=======
+		(text "dalay_done" (rect 0 0 67 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "dalay_done" (rect 120 27 187 40)(font "DejaVu Sans Condensed" (font_size 8)))
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 		(line (pt 208 32)(pt 192 32))
 	)
 	(drawing

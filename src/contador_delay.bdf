@@ -88,7 +88,11 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 936 360 1112 376)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+<<<<<<< HEAD
 	(text "delay_done" (rect 90 0 151 11)(font "Arial" ))
+=======
+	(text "dalay_done" (rect 90 0 151 11)(font "Arial" ))
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -381,6 +385,7 @@ on the Quartus Prime software download page.
 	(pt 720 400)
 	(bus)
 )
+<<<<<<< HEAD
 (connector
 	(pt 352 120)
 	(pt 440 120)
@@ -389,3 +394,5 @@ on the Quartus Prime software download page.
 	(pt 440 120)
 	(pt 440 136)
 )
+=======
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6

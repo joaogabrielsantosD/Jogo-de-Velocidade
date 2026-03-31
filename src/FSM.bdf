@@ -22,9 +22,15 @@ on the Quartus Prime software download page.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
+<<<<<<< HEAD
 	(rect -696 192 -528 208)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "F" (rect 5 0 10 11)(font "DejaVu Sans Condensed" ))
+=======
+	(rect 400 120 568 136)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "clock" (rect 5 0 35 11)(font "Arial" ))
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -38,9 +44,15 @@ on the Quartus Prime software download page.
 )
 (pin
 	(input)
+<<<<<<< HEAD
 	(rect -712 232 -544 248)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "S_t" (rect 5 0 21 11)(font "Arial" ))
+=======
+	(rect 392 184 560 200)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "rst_n" (rect 5 0 29 11)(font "DejaVu Sans Condensed" ))
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -54,9 +66,15 @@ on the Quartus Prime software download page.
 )
 (pin
 	(input)
+<<<<<<< HEAD
 	(rect -208 32 -40 48)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "J1" (rect 5 0 14 11)(font "DejaVu Sans Condensed" ))
+=======
+	(rect 392 272 560 288)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "key[0]" (rect 5 0 36 11)(font "DejaVu Sans Condensed" ))
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -70,9 +88,15 @@ on the Quartus Prime software download page.
 )
 (pin
 	(input)
+<<<<<<< HEAD
 	(rect -208 64 -40 80)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "J2" (rect 5 0 14 11)(font "DejaVu Sans Condensed" ))
+=======
+	(rect 384 336 552 352)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "key[1]" (rect 5 0 36 11)(font "DejaVu Sans Condensed" ))
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -86,9 +110,15 @@ on the Quartus Prime software download page.
 )
 (pin
 	(input)
+<<<<<<< HEAD
 	(rect -200 216 -32 232)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "clock" (rect 5 0 34 11)(font "Arial" ))
+=======
+	(rect 384 384 552 400)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "key[2]" (rect 5 0 36 11)(font "DejaVu Sans Condensed" ))
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -99,6 +129,7 @@ on the Quartus Prime software download page.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+<<<<<<< HEAD
 	(annotation_block (location)(rect -256 232 -200 248))
 )
 (pin
@@ -2367,3 +2398,6 @@ on the Quartus Prime software download page.
 (rectangle (rect 1520 -624 1864 -328))
 (rectangle (rect 2008 -560 2336 -336))
 (rectangle (rect 2568 -560 2840 -280))
+=======
+)
+>>>>>>> b6c1a77799b287b62856a43f2a3f875617ecf7f6
