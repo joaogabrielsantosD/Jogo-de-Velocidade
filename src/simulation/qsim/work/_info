@@ -1,0 +1,189 @@
+m255
+K4
+z2
+Z0 !s12c _opt2
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+Z2 !s12c _opt
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+!s11e MIXED_VERSIONS
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z3 d/home/matheus/Downloads/Jogo-de-Velocidade/src/simulation/qsim
+T_opt
+!i145 1
+!i144 0
+!s12d 4659000
+!s110 1774911211
+V5D=<[PMXREKzDB^^W0DNZ0
+Z4 04 15 4 work top_vlg_vec_tst fast 0
+=1-0045e2ddb811-69cafeeb-67d83-137b9
+!s9c 1
+R1
+Z5 !s12f OEM100
+Z6 !s12b OEM100
+Z7 !s124 OEM10U3 
+Z8 !s135 nogc
+Z9 o-quiet -auto_acc_if_foreign -work work -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver +acc
+Z10 tCvgOpt 0
+n@_opt
+Z11 OL;O;2025.2;82
+R3
+T_opt2
+!i145 1
+!i144 0
+!s110 1774916091
+VH;TdIiAh`L^NX6?O6W_@>0
+R4
+=1-0045e2ddb811-69cb11fb-5def-17ef2
+R1
+R5
+R6
+R7
+R8
+R9
+R10
+n@_opt2
+R11
+vhard_block
+Z12 2jogo_de_velocidade.vo
+Z13 !s110 1774916090
+!i10b 1
+!s100 P4i_V`3icnXB;5izcX2DK3
+I[kRnJCVH6oI;Bj=FOe]bR3
+R3
+Z14 w1774916090
+Z15 8jogo_de_velocidade.vo
+Z16 Fjogo_de_velocidade.vo
+!i122 76
+L0 1143 34
+Z17 VDg1SIo80bB@j0V0VzS_@n1
+Z18 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z19 !s108 1774916090.000000
+Z20 !s107 jogo_de_velocidade.vo|
+Z21 !s90 -work|work|jogo_de_velocidade.vo|
+!i113 0
+Z22 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R10
+vtop
+R12
+R13
+!i10b 1
+!s100 PI9;OfWOk<QaJnPCXP09E0
+Ij1]3ONaGHG[16Oa2BLi<a0
+R3
+R14
+R15
+R16
+!i122 76
+L0 32 1110
+R17
+R18
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 0
+R22
+R10
+Etop_vhd_vec_tst
+Z23 w1774909297
+Z24 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z25 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 47
+R3
+Z26 8Waveform.vwf.vht
+Z27 FWaveform.vwf.vht
+l0
+L32 1
+Vc7ORh82j0fL3dGC4eFm4k2
+!s100 <P>A;@11]XQbG;eP>UZgE0
+Z28 OL;C;2025.2;82
+32
+Z29 !s110 1774909811
+!i10b 1
+Z30 !s108 1774909811.000000
+Z31 !s90 -reportprogress|300|-work|work|Waveform.vwf.vht|
+Z32 !s107 Waveform.vwf.vht|
+!i113 0
+Z33 o-work work
+Z34 tExplicit 1 CvgOpt 0
+Atop_arch
+R24
+R25
+DEx4 work 15 top_vhd_vec_tst 0 22 c7ORh82j0fL3dGC4eFm4k2
+!i122 47
+l61
+L34 55
+Vjm48o[K6JmC@Lh34Ul_PG1
+!s100 oLedVl<X5KE8b9LC9K0PK2
+R28
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R33
+R34
+vtop_vlg_vec_tst
+2Waveform.vwf.vt
+R13
+!i10b 1
+!s100 @3P?S2hSWfR@d5VK]ODIH1
+I8d?d>T;^kVH^2QJaiBY^d2
+R3
+w1774916089
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 77
+L0 30 51
+R17
+R18
+r1
+!s85 0
+31
+R19
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 0
+R22
+R10
