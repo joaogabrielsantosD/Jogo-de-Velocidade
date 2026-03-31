@@ -1,0 +1,164 @@
+Determining the location of the ModelSim executable...
+
+Using: /home/matheus/altera_lite/25.1std/questa_fse/linux_x86_64/
+
+To specify a ModelSim executable directory, select: Tools -> Options -> EDA Tool Options
+Note: if both Questa Intel FPGA Edition and ModelSim executables are available, Questa Intel FPGA Edition will be used.
+
+**** Generating the ModelSim Testbench ****
+
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off jogo_de_velocidade -c jogo_de_velocidade --vector_source="/home/matheus/Downloads/Jogo-de-Velocidade/src/Waveform.vwf" --testbench_file="/home/matheus/Downloads/Jogo-de-Velocidade/src/simulation/qsim/Waveform.vwf.vt"
+
+Info: *******************************************************************Info: Running Quartus Prime EDA Netlist Writer    Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition    Info: Copyright (C) 2025  Altera Corporation. All rights reserved.    Info: Your use of Altera Corporation's design tools, logic functions     Info: and other software and tools, and any partner logic     Info: functions, and any output files from any of the foregoing     Info: (including device programming or simulation files), and any     Info: associated documentation or information are expressly subject     Info: to the terms and conditions of the Altera Program License     Info: Subscription Agreement, the Altera Quartus Prime License Agreement,    Info: the Altera IP License Agreement, or other applicable license    Info: agreement, including, without limitation, that your use is for    Info: the sole purpose of programming logic devices manufactured by    Info: Altera and sold by Altera or its authorized distributors.  Please    Info: refer to the Altera Software License Subscription Agreements     Info: on the Quartus Prime software download page.    Info: Processing started: Mon Mar 30 21:14:49 2026Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off jogo_de_velocidade -c jogo_de_velocidade --vector_source=/home/matheus/Downloads/Jogo-de-Velocidade/src/Waveform.vwf --testbench_file=/home/matheus/Downloads/Jogo-de-Velocidade/src/simulation/qsim/Waveform.vwf.vt
+e-Velocidade/src/simulation/qsim/Waveform.vwf.vt for simulationInfo: Quartus Prime EDA Netlist Writer was successful. 0 errors, 46 warnings    Info: Peak virtual memory: 580 megabytes    Info: Processing ended: Mon Mar 30 21:14:49 2026    Info: Elapsed time: 00:00:00    Info: Total CPU time (on all processors): 00:00:00
+Completed successfully. 
+
+Completed successfully. 
+
+**** Generating the functional simulation netlist ****
+
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="/home/matheus/Downloads/Jogo-de-Velocidade/src/simulation/qsim/" jogo_de_velocidade -c jogo_de_velocidade
+
+Info: *******************************************************************Info: Running Quartus Prime EDA Netlist Writer    Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition    Info: Copyright (C) 2025  Altera Corporation. All rights reserved.    Info: Your use of Altera Corporation's design tools, logic functions     Info: and other software and tools, and any partner logic     Info: functions, and any output files from any of the foregoing     Info: (including device programming or simulation files), and any     Info: associated documentation or information are expressly subject     Info: to the terms and conditions of the Altera Program License     Info: Subscription Agreement, the Altera Quartus Prime License Agreement,    Info: the Altera IP License Agreement, or other applicable license    Info: agreement, including, without limitation, that your use is for    Info: the sole purpose of programming logic devices manufactured by    Info: Altera and sold by Altera or its authorized distributors.  Please    Info: refer to the Altera Software License Subscription Agreements     Info: on the Quartus Prime software download page.    Info: Processing started: Mon Mar 30 21:14:49 2026Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=/home/matheus/Downloads/Jogo-de-Velocidade/src/simulation/qsim/ jogo_de_velocidade -c jogo_de_velocidadeInfo (204019): Generated file jogo_de_velocidade.vo in folder "/home/matheus/Downloads/Jogo-de-Velocidade/src/simulation/qsim//" for EDA simulation toolInfo: Quartus Prime EDA Netlist Writer was successful. 0 errors, 0 warnings    Info: Peak virtual memory: 580 megabytes    Info: Processing ended: Mon Mar 30 21:14:50 2026    Info: Elapsed time: 00:00:01    Info: Total CPU time (on all processors): 00:00:00
+Completed successfully. 
+
+**** Generating the ModelSim .do script ****
+
+/home/matheus/Downloads/Jogo-de-Velocidade/src/simulation/qsim/jogo_de_velocidade.do generated.
+
+Completed successfully. 
+
+**** Running the ModelSim simulation ****
+
+/home/matheus/altera_lite/25.1std/questa_fse/linux_x86_64//vsim -c -do jogo_de_velocidade.do
+
+Reading pref.tcl
+# 2025.2
+# do jogo_de_velocidade.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 21:14:50 on Mar 30,2026
+# vlog -work work jogo_de_velocidade.vo 
+# ** Note: (vlog-220) '/home/matheus/altera_lite/25.1std/questa_fse/linux_x86_64/../modelsim.ini' is used as the ini file.
+# -- Compiling module top
+# -- Compiling module hard_block
+# # Top level modules:# 	top# End time: 21:14:50 on Mar 30,2026, Elapsed time: 0:00:00# Errors: 0, Warnings: 0
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025# Start time: 21:14:50 on Mar 30,2026
+# vlog -work work Waveform.vwf.vt 
+# ** Note: (vlog-220) '/home/matheus/altera_lite/25.1std/questa_fse/linux_x86_64/../modelsim.ini' is used as the ini file.
+# -- Compiling module top_vlg_vec_tst
+# # Top level modules:# 	top_vlg_vec_tst
+# End time: 21:14:50 on Mar 30,2026, Elapsed time: 0:00:00# Errors: 0, Warnings: 0
+# ** Note: (vsim-220) '/home/matheus/altera_lite/25.1std/questa_fse/linux_x86_64/../modelsim.ini' is used as the ini file.# vsim -voptargs=""+acc"" -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.top_vlg_vec_tst # Start time: 21:14:50 on Mar 30,2026# ** Note: (vsim-3813) Design is being optimized due to module recompilation...# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.# ** Note: (vopt-220) '/home/matheus/altera_lite/25.1std/questa_fse/linux_x86_64/../modelsim.ini' is used as the ini file.# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.# //  Questa Altera Starter FPGA Edition-64# //  Version 2025.2 linux_x86_64 May 31 2025# //# // Unpublished work. Copyright 2025 Siemens# //# // This material contains trade secrets or otherwise confidential information# // owned by Siemens Industry Software Inc. or its affiliates (collectively,# // "SISW"), or its licensors. Access to and use of this information is strictly# // limited as set forth in the Customer's applicable agreements with SISW.# //# // This material may not be copied, distributed, or otherwise disclosed outside# // of the Customer's facilities without the express written permission of SISW,# // and may not be used in any way not expressly authorized by SISW.# //
+# Loading work.top_vlg_vec_tst(fast)# Loading work.top(fast)# Loading work.hard_block(fast)# Loading cycloneive_ver.cycloneive_io_obuf(fast)# Loading cycloneive_ver.cycloneive_io_ibuf(fast)# Loading cycloneive_ver.cycloneive_clkctrl(fast)# Loading cycloneive_ver.cycloneive_mux41(fast)# Loading cycloneive_ver.cycloneive_ena_reg(fast)# Loading cycloneive_ver.cycloneive_lcell_comb(fast)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__1)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__2)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__3)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__4)# Loading altera_ver.dffeas(fast)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__5)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__6)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__7)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__8)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__9)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__10)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__11)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__12)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__13)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__14)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__15)# Loading cycloneive_ver.cycloneive_lcell_comb(fast__16)
+# after#29
+# ** Note: $finish    : Waveform.vwf.vt(63)#    Time: 1 us  Iteration: 0  Instance: /top_vlg_vec_tst
+# End time: 21:14:51 on Mar 30,2026, Elapsed time: 0:00:01# Errors: 0, Warnings: 1
+Completed successfully. 
+
+**** Converting ModelSim VCD to vector waveform ****
+
+Reading /home/matheus/Downloads/Jogo-de-Velocidade/src/Waveform.vwf...
+
+Reading /home/matheus/Downloads/Jogo-de-Velocidade/src/simulation/qsim/jogo_de_velocidade.msim.vcd...
+
+Processing channel transitions... 
+
+Warning: S_t - signal not found in VCD.
+
+Warning: out_Q2 - signal not found in VCD.
+
+Warning: out_Q1 - signal not found in VCD.
+
+Warning: out_Q0 - signal not found in VCD.
+
+Warning: L - signal not found in VCD.
+
+Warning: J2 - signal not found in VCD.
+
+Warning: J1 - signal not found in VCD.
+
+Warning: I2 - signal not found in VCD.
+
+Warning: I1 - signal not found in VCD.
+
+Warning: F - signal not found in VCD.
+
+Warning: E - signal not found in VCD.
+
+Warning: B - signal not found in VCD.
+
+Warning: lpm_counter:inst - signal not found in VCD.
+
+Warning: inst1 - signal not found in VCD.
+
+Warning: inst2 - signal not found in VCD.
+
+Warning: debounce:inst3 - signal not found in VCD.
+
+Warning: debounce:inst4 - signal not found in VCD.
+
+Warning: contador:inst5 - signal not found in VCD.
+
+Warning: lfsr:inst6 - signal not found in VCD.
+
+Warning: contador:inst7 - signal not found in VCD.
+
+Warning: lpm_counter:inst8 - signal not found in VCD.
+
+Warning: inst10 - signal not found in VCD.
+
+Warning: contador_delay:inst11 - signal not found in VCD.
+
+Warning: FSM:inst12 - signal not found in VCD.
+
+Warning: inst13 - signal not found in VCD.
+
+Warning: inst14 - signal not found in VCD.
+
+Warning: inst15 - signal not found in VCD.
+
+Warning: inst16 - signal not found in VCD.
+
+Warning: inst17 - signal not found in VCD.
+
+Warning: inst18 - signal not found in VCD.
+
+Warning: inst19 - signal not found in VCD.
+
+Warning: inst21 - signal not found in VCD.
+
+Warning: inst22 - signal not found in VCD.
+
+Warning: inst23 - signal not found in VCD.
+
+Warning: inst24 - signal not found in VCD.
+
+Warning: inst25 - signal not found in VCD.
+
+Warning: inst26 - signal not found in VCD.
+
+Warning: inst27 - signal not found in VCD.
+
+Warning: inst28 - signal not found in VCD.
+
+Warning: inst29 - signal not found in VCD.
+
+Warning: inst30 - signal not found in VCD.
+
+Warning: inst31 - signal not found in VCD.
+
+Warning: inst32 - signal not found in VCD.
+
+Warning: inst33 - signal not found in VCD.
+
+Warning: Q2 - signal not found in VCD.
+
+Writing the resulting VWF to /home/matheus/Downloads/Jogo-de-Velocidade/src/simulation/qsim/jogo_de_velocidade_20260330211451.sim.vwf
+
+Finished VCD to VWF conversion.
+
+Completed successfully. 
+
+All completed.
