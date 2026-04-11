@@ -5,9 +5,13 @@ src/incremental_db/*
 src/output_files/*
 src/simulation/*
 
+# src/*.qsf
+# src/*.qpf
+src/*.qws
+
 # Documentation
 docs/*
+!docs/Projeto 1 - Jogo da velocidade 2026.pdf
 
-src/*.qws
 
 src/cin-board.tcl

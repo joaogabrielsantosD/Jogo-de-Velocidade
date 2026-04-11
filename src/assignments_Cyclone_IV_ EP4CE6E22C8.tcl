@@ -8,25 +8,25 @@ set_location_assignment	PIN_25	-to	rst_n
 
 
 #---------------KEY/CKEY----------------------#
-set_location_assignment	PIN_88	-to	key[1]
-set_location_assignment	PIN_89	-to	key[2]
-set_location_assignment	PIN_90 	-to	key[3]
-set_location_assignment	PIN_91	-to	key[4]
+set_location_assignment	PIN_88	-to	key[0]
+set_location_assignment	PIN_89	-to	key[1]
+set_location_assignment	PIN_90 	-to	key[2]
+set_location_assignment	PIN_91	-to	key[3]
 
 #----------------BUZZER-----------------------#
 set_location_assignment	PIN_110	-to	buzzer
 
 #--------------------LED----------------------#
-set_location_assignment	PIN_87	-to	led[1]
-set_location_assignment	PIN_86	-to	led[2]
-set_location_assignment	PIN_85	-to	led[3]
-set_location_assignment	PIN_84	-to	led[4]
+set_location_assignment	PIN_87	-to	led[0]
+set_location_assignment	PIN_86	-to	led[1]
+set_location_assignment	PIN_85	-to	led[2]
+set_location_assignment	PIN_84	-to	led[3]
 
 #--------------------DIG----------------------#
-set_location_assignment	PIN_133	-to	dig[1]
-set_location_assignment	PIN_135	-to	dig[2]
-set_location_assignment	PIN_136	-to dig[3]
-set_location_assignment	PIN_137	-to	dig[4]
+set_location_assignment	PIN_133	-to	dig[0]
+set_location_assignment	PIN_135	-to	dig[1]
+set_location_assignment	PIN_136	-to dig[2]
+set_location_assignment	PIN_137	-to	dig[3]
 
 set_location_assignment	PIN_128 -to	seg[0]
 set_location_assignment	PIN_121	-to seg[1]

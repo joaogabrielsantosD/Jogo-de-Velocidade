@@ -24,7 +24,7 @@ https://fpgasoftware.intel.com/eula.
 	(input)
 	(rect 168 256 336 272)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "Entrada" (rect 5 0 47 11)(font "Arial" ))
+	(text "Entrada" (rect 5 0 46 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 	(input)
 	(rect 80 304 248 320)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "reset" (rect 5 0 31 11)(font "Arial" ))
+	(text "reset" (rect 5 0 30 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -120,6 +120,23 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 78 12)(pt 82 8))
 	)
 	(annotation_block (location)(rect 720 424 776 440))
+)
+(pin
+	(output)
+	(rect 56 392 232 408)
+	(text "OUTPUT" (rect 135 0 175 10)(font "Arial" (font_size 6)))
+	(text "reset_counter" (rect 5 0 74 11)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 176 8)(pt 124 8))
+		(line (pt 124 4)(pt 98 4))
+		(line (pt 124 12)(pt 98 12))
+		(line (pt 124 12)(pt 124 4))
+		(line (pt 98 4)(pt 94 8))
+		(line (pt 94 8)(pt 98 12))
+		(line (pt 98 12)(pt 94 8))
+	)
+	(flipy)
 )
 (symbol
 	(rect 432 224 496 304)
@@ -894,10 +911,6 @@ https://fpgasoftware.intel.com/eula.
 )
 (connector
 	(pt 248 400)
-	(pt 336 400)
-)
-(connector
-	(pt 248 400)
 	(pt 248 328)
 )
 (connector
@@ -907,6 +920,14 @@ https://fpgasoftware.intel.com/eula.
 (connector
 	(pt 264 312)
 	(pt 248 312)
+)
+(connector
+	(pt 232 400)
+	(pt 248 400)
+)
+(connector
+	(pt 248 400)
+	(pt 336 400)
 )
 (junction (pt 464 192))
 (junction (pt 568 192))
@@ -930,3 +951,4 @@ https://fpgasoftware.intel.com/eula.
 (junction (pt 504 432))
 (junction (pt 608 408))
 (junction (pt 768 384))
+(junction (pt 248 400))
