@@ -22,4 +22,23 @@ dar  início  ao  jogo  e  esperar  um  tempo  (que  pode  ser aleatório) para 
 
 - O jogador que chegar em 10 pontos primeiro vence e uma informação deve ser apresentada no display e um som deve ser tocado.
 
-## Diagrama do Projeto
+## Top
+[<img src="docs/top_image.png" alt="Top main view" />](docs/top_image.png)
+
+## Game Control
+[<img src="docs/game_control_image.png" alt="Top main view" />](docs/game_control_image.png)
+
+## Buzzer
+[<img src="docs/buzzer_image.png" alt="Top main view" />](docs/buzzer_image.png)
+
+## 4 Bits Counter
+[<img src="docs/4bits_counter_image.png" alt="Top main view" />](docs/4bits_counter_image.png)
+
+## 7 Segments Display
+[<img src="docs/7seg_image.png" alt="Top main view" />](docs/7seg_image.png)
+
+## Demux 2:4
+[<img src="docs/demux_image.png" alt="Top main view" />](docs/demux_image.png)
+
+## Debounce
+[<img src="docs/debounce_image.png" alt="Top main view" />](docs/debounce_image.png)
